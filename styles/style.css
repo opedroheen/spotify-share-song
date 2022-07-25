@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    background-color: rgb(125, 114, 224);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.share_content{
+    background-color: rgb(121, 111, 211);
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px;
+    margin-top: -150px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /*margin-right: auto;
+    margin-left: auto;*/
+}
+
+.text-image{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.text-image h3{
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-left: 25px;
+    vertical-align: text-bottom;
+    font-size: 17px;
+}
+
+.cover{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.lyric{
+    margin-top: 20px;
+}
+
+.lyric p{
+    margin: 0;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo{
+    width: 100px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+/*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/
+
+@media (max-width: 600px) {
+    .share_content{
+        width: 300px;
+        height: 200px;
+        margin-left: -150px;
+        margin-top: -100px;
+    }
+
+    .text-image{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .cover{
+        width: 75px;
+        height: 75px;
+    }
+
+    .text-image h3{
+        letter-spacing: 1px;
+        display: inline-block;
+        padding-left: 18px;
+        vertical-align: text-bottom;
+        font-size: 14px;
+    }
+
+    .lyric{
+        margin-top: 10px;
+    }
+    
+    .lyric p{
+        margin: 0;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .logo{
+        width: 90px;
+        height: 27px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+}
+
+/*RESPONSIVIDADE*/
+/*RESPONSIVIDADE*/
